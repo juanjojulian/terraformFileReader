@@ -1,0 +1,6 @@
+{
+    "name": "backend",
+    "resource_group_name": "myResourceGroup",
+    "virtual_network_name": "myVirtualNetwork",
+    "address_prefixes": ["10.130.210.2/24"]
+}

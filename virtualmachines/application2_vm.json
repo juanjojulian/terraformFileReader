@@ -1,0 +1,13 @@
+{
+  "name": "appServer-02",
+  "OperatingSystem": "Linux",
+  "location": "CentralUS",
+  "resource_group_name": "virtualMachines-rg",
+  "size": "Standard_Bs2",
+  "subnet":{
+    "name": "centralus-dev-app",
+    "private_ip_address": "10.209.12.11",
+    "resource_group_name": "centralus-network-rg",
+    "virtual_network_name": "centralus-vnet"
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "sqlServer-01",
+    "OperatingSystem": "Windows",
+    "location": "CentralUS",
+    "resource_group_name": "virtualMachines-rg",
+    "size": "Standard_F2",
+    "subnet":{
+      "name": "centralus-dev-backend",
+      "private_ip_address": "10.209.12.128",
+      "resource_group_name": "centralus-network-rg",
+      "virtual_network_name": "centralus-vnet"
+    }
+  }
